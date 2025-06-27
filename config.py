@@ -1,0 +1,2 @@
+BOT_TOKEN = "7701438631:AAGCLF0AdNZzeDhpyUCTRsTL6HhTqN0u1mk"
+TARGET_CHAT_ID = -1001234567890  # Ganti dengan ID grup/channel kamu
