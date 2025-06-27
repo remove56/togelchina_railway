@@ -42,7 +42,7 @@ async def hasil(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("Belum ada hasil keluaran.")
 
 async def main():
-    TOKEN = "ISI_TOKEN_BOT_ANDA_DI_SINI"
+    TOKEN = "7701438631:AAFZWjEB-ed3OB1QfweYMHpQHTJcZqUJ0G8"
     app = ApplicationBuilder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("prediksi", prediksi))
